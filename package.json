@@ -1,0 +1,39 @@
+{
+  "name": "itunes-search",
+  "version": "1.0.0",
+  "description": "iTunes search",
+  "repository": "sotayamashita/itunes-search",
+  "license": "MIT",
+  "author": {
+    "name": "Sota Yamashita",
+    "url": "github.com/sotayamashita"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "bugs": {
+    "url": "https://github.com/sotayamashita/itunes-search/issues"
+  },
+  "scripts": {
+    "lint": "eslint -f 'node_modules/eslint-friendly-formatter' index.js",
+    "lint:fix": "eslint -f 'node_modules/eslint-friendly-formatter' --fix index.js",
+    "test": "npm run lint"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "itunes",
+    "search"
+  ],
+  "dependencies": {
+    "got": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-friendly-formatter": "^2.0.6",
+    "eslint-plugin-import": "^1.15.0",
+    "pre-commit": "^1.1.3"
+  }
+}
