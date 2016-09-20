@@ -39,6 +39,11 @@ todo
 * [itunes-search-cli](https://github.com/sotayamashita/itunes-search-cli) - CLI for this module.
 
 
+## References
+
+* [iTunes Affiliate Resources](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
+
+
 ## License
 
 MIT © Sota Yamashita
